@@ -6,12 +6,12 @@
 	<artifactId>pay-spring-boot</artifactId>
 	<version>0.0.1</version>
 	<packaging>jar</packaging>
-    
-    <!-- NOTE: Change to yourself parent project -->
-    <parent>
-		<groupId>org.yangyuan</groupId>
-		<artifactId>yangyuan</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
+
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.1.3.RELEASE</version>
+		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
 	<name>pay-spring-boot</name>
